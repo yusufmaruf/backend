@@ -12,7 +12,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'DBH-3491',
       manufacture: 'Ford',
       model: 'F150',
-      image: './images/car01.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 200000,
       capacity: 2,
       description:
@@ -45,7 +45,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'WXB-3984',
       manufacture: 'BMW',
       model: 'X5',
-      image: './images/car02.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 800000,
       capacity: 6,
       description:
@@ -78,7 +78,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'OSL-4224',
       manufacture: 'Lincoln',
       model: 'MKZ',
-      image: './images/car03.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 900000,
       capacity: 6,
       description:
@@ -115,7 +115,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'VPT-9753',
       manufacture: 'BMW',
       model: 'M5',
-      image: './images/car04.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 900000,
       capacity: 6,
       description: ' 6.1L SRT V8 "Hemi" engine.',
@@ -151,7 +151,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'BHD-3923',
       manufacture: 'Lincoln',
       model: 'Navigator',
-      image: './images/car05.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 200000,
       capacity: 2,
       description:
@@ -183,7 +183,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'JPM-5482',
       manufacture: 'Ford',
       model: 'Fiesta',
-      image: './images/car06.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 900000,
       capacity: 4,
       description:
@@ -216,7 +216,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'BTW-1960',
       manufacture: 'Honda',
       model: 'Accord',
-      image: './images/car07.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 900000,
       capacity: 4,
       description:
@@ -252,7 +252,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'YHD-4104',
       manufacture: 'Lincoln',
       model: 'Navigator',
-      image: './images/car08.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 300000,
       capacity: 2,
       description:
@@ -285,7 +285,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'STL-7347',
       manufacture: 'Buick',
       model: 'LaCrosse',
-      image: './images/car09.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 1000000,
       capacity: 6,
       description:
@@ -320,7 +320,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'TJW-7622',
       manufacture: 'BMW',
       model: 'X5',
-      image: './images/car10.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 300000,
       capacity: 6,
       description:
@@ -352,7 +352,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'YND-1892',
       manufacture: 'Chevy',
       model: 'Malibu',
-      image: './images/car11.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 700000,
       capacity: 2,
       description:
@@ -388,7 +388,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'FZQ-1989',
       manufacture: 'BMW',
       model: 'X3',
-      image: './images/car12.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 800000,
       capacity: 4,
       description: ' Multi-reflector halogen headlamps. Speed control.',
@@ -426,7 +426,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'GAG-1943',
       manufacture: 'Chevy',
       model: 'Malibu',
-      image: './images/car13.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 900000,
       capacity: 6,
       description:
@@ -458,7 +458,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'CVO-9549',
       manufacture: 'Chevy',
       model: 'Malibu',
-      image: './images/car14.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 700000,
       capacity: 2,
       description:
@@ -493,7 +493,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'JWU-8459',
       manufacture: 'Lincoln',
       model: 'MKS',
-      image: './images/car15.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 900000,
       capacity: 4,
       description:
@@ -531,7 +531,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'VOS-8183',
       manufacture: 'Chevy',
       model: 'Silverado',
-      image: './images/car16.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 200000,
       capacity: 6,
       description:
@@ -564,7 +564,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'ENW-7713',
       manufacture: 'Lincoln',
       model: 'MKS',
-      image: './images/car17.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 1000000,
       capacity: 2,
       description:
@@ -600,7 +600,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'TPM-8174',
       manufacture: 'Dodge',
       model: 'Ram',
-      image: './images/car18.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 700000,
       capacity: 6,
       description:
@@ -636,7 +636,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'ZAG-8112',
       manufacture: 'Ford',
       model: 'F150',
-      image: './images/car19.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 600000,
       capacity: 6,
       description: '',
@@ -673,7 +673,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'MRQ-2982',
       manufacture: 'Audi',
       model: 'A4',
-      image: './images/car20.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 700000,
       capacity: 6,
       description:
@@ -707,7 +707,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'ACT-6027',
       manufacture: 'Dodge',
       model: 'Durango',
-      image: './images/car21.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 400000,
       capacity: 6,
       description:
@@ -740,7 +740,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'LSI-6227',
       manufacture: 'Audi',
       model: 'S5',
-      image: './images/car22.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 300000,
       capacity: 6,
       description:
@@ -778,7 +778,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'OAI-9575',
       manufacture: 'Toyota',
       model: 'Camry',
-      image: './images/car23.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 200000,
       capacity: 6,
       description:
@@ -817,7 +817,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'NHI-3883',
       manufacture: 'Nissan',
       model: 'Pathfiner',
-      image: './images/car24.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 600000,
       capacity: 6,
       description:
@@ -852,7 +852,7 @@ export async function seed (knex: Knex): Promise<void> {
       plate: 'IDN-5442',
       manufacture: 'Honda',
       model: 'Civic',
-      image: './images/car25.min.jpg',
+      image: 'https://res.cloudinary.com/dyrxqtvlr/image/upload/v1701997256/b1ziqervhrkmzq6pyc70.jpg',
       rentPerDay: 1000000,
       capacity: 2,
       description:

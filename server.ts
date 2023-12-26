@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/dot-notation */
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 import express, { type Express } from 'express'
 import knex from 'knex'
@@ -8,20 +9,14 @@ import { UserController } from './controllers/authcontroller'
 
 import swaggerUi from 'swagger-ui-express'
 import swaggerDocument from './swagger.json'
-import dotenv from 'dotenv'
-import path from 'path'
 
-dotenv.config({ path: path.resolve(__dirname, '.env') })
+import dotenv from 'dotenv'
+dotenv.config()
 
 // Connect ORM to Database
 const knexInstance = knex({
   client: 'postgresql',
-  connection: {
-    port: 5432,
-    database: 'car',
-    user: 'postgres',
-    password: 'bismillah'
-  }
+  connection: process.env['DATABASE_URL']
 })
 
 Model.knex(knexInstance)

@@ -1,16 +1,15 @@
+/* eslint-disable @typescript-eslint/dot-notation */
 /* v8 ignore start */
 
 import type { Knex } from 'knex'
+import dotenv from 'dotenv'
+dotenv.config()
 
 const config: Record<string, Knex.Config> = {
   development: {
     client: 'postgresql',
-    connection: {
-      port: 5430,
-      database: 'car',
-      user: 'postgres',
-      password: 'bismillah'
-    },
+    // eslint-disable-next-line @typescript-eslint/dot-notation
+    connection: process.env['DATABASE_URL'],
     pool: {
       min: 2,
       max: 10
@@ -21,12 +20,7 @@ const config: Record<string, Knex.Config> = {
   },
   production: {
     client: 'postgresql',
-    connection: {
-      port: 5430,
-      database: 'car',
-      user: 'postgres',
-      password: 'bismillah'
-    },
+    connection: process.env['DATABASE_URL'],
     pool: {
       min: 2,
       max: 10
