@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for binar-api on 2023-12-27T01:15:00+07:00
+# fly.toml app configuration file generated for api-binar on 2023-12-27T03:06:58+07:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "binar-api"
+app = "api-binar"
 primary_region = "sin"
 
 [build]
